@@ -1,0 +1,23 @@
+body > .container {  
+    margin: 10px;   
+    padding: 20px;   
+    border-style: none; 
+}
+
+.t-margin{
+    margin:3rem 0 0 30rem;
+}
+
+.t-margin1{
+    margin:3rem 0 0 10rem;
+}
+
+.t-margin-cart{
+    margin-left: 10rem;
+}
+
+.margin-bottom{
+    margin-top:0.8rem;
+    margin-left: 1rem;
+    padding: 0.5rem 6rem 0.5rem 6rem;
+}
