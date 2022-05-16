@@ -23,8 +23,13 @@
             <div class="col-9">
                 <nav class="navbar navbar-expand-lg navbar-light text-danger">
                     <div class="container-fluid">
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item px-2">
                                     <a class="nav-link text-dark" aria-current="page" href="#">News</a>
                                 </li>
@@ -89,10 +94,33 @@
                             <img src="youkai_jinmenken.png" alt="..." width="120rem">
                         </div>
                         <div class="col-12 mt-5">
-                            <button type="button" class="btn btn-danger btn-lg me-3 px-4 rounded-pill">Buy Now</button>
-                            <button type="button" class="btn btn-success btn-lg px-5 rounded-pill">Add to cart</button>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div>
+                                        <div class="d-flex img-width-150 border rounded mt-2">
+                                            <div class="p-2 hover-poiter">
+                                                <p class="m-0 ps-2"> - </p>
+                                            </div>
+                                            <div class="p-2 flex-grow-1">
+                                                <p class="m-0 text-center">2</p>
+                                            </div>
+                                            <div class="p-2 hover-poiter">
+                                                <p class="m-0 pe-2"> + </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-danger btn-lg me-3 px-3 rounded-pill m-3">Buy
+                                    Now</button>
+                                <button type="button" class="btn btn-success btn-lg px-5 rounded-pill m-3">Add to
+                                    cart</button>
+
+                            </div>
+
+
                         </div>
-                        <div class="col-12 pt-5">
+                        <div class="col-12 pt-2">
                             <h6 class="border-bottom p-2">Description</h6>
                             <p>The Welsh Corgior Corgi, plural Corgis, or occasionally the etymologically
                                 consistent Corgwn;is a small type of herding dog that originated in Wales.
